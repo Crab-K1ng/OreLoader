@@ -1,0 +1,13 @@
+{
+    "stringId": "base:ore_iron",
+    "blockStates":
+    {
+        "default": 
+        {
+            "modelName": "base:models/blocks/model_ore_iron.json",
+            "tags": [
+                "tool_pickaxe_effective"
+            ]
+        }
+    }
+}

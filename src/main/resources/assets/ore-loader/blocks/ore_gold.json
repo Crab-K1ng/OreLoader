@@ -1,0 +1,13 @@
+{
+    "stringId": "base:ore_gold",
+    "blockStates":
+    {
+        "default": 
+        {
+            "modelName": "base:models/blocks/model_ore_gold.json",
+            "tags": [
+                "tool_pickaxe_effective"
+            ]
+        }
+    }
+}

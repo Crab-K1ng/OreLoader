@@ -1,0 +1,13 @@
+{
+    "stringId": "base:ore_bauxite",
+    "blockStates":
+    {
+        "default": 
+        {
+            "modelName": "base:models/blocks/model_ore_bauxite.json",
+            "tags": [
+                "tool_pickaxe_effective"
+            ]
+        }
+    }
+}

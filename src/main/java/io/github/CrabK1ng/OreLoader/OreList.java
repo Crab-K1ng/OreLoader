@@ -1,5 +1,7 @@
 package io.github.CrabK1ng.OreLoader;
 
+import finalforeach.cosmicreach.blocks.Block;
+
 public class OreList {;
    public String blockId;
    public int MaxElevation;
@@ -7,7 +9,7 @@ public class OreList {;
    public int MaxOresPerCluster;
    public int AttemptsPerColumn;
 
-   public OreList setOre(String blockId, int MaxElevation,int MinElevation, int MaxOresPerCluster, int AttemptsPerColumn ) {
+   public OreList setOre(String blockId, int MaxElevation,int MinElevation, int MaxOresPerCluster, int AttemptsPerColumn) {
       this.blockId = blockId;
       this.MaxElevation = MaxElevation;
       this.MinElevation = MinElevation;
@@ -20,11 +22,11 @@ public class OreList {;
       if (this.blockId == null) {
          return true;
       } else {
+         Block block = Block.getById(blockId);
+         if (block == null) {
+            throw new NullPointerException("Missing block for id: " + blockId);
+         }
          return false;
       }
-   }
-
-   public String getOutput() {
-      return this.blockId;
    }
 }

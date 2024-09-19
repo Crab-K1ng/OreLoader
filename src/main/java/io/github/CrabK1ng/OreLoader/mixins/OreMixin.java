@@ -20,7 +20,7 @@ public class OreMixin {
 
         for(OreList r : allOre) {
             Ore tempOre;
-            Constants.LOGGER.info("blockId " + r.blockId);
+            Constants.LOGGER.info("add Ore :" + r.blockId);
             tempOre = (new Ore(Block.getById(r.blockId).getDefaultBlockState(), "ore_replaceable"))
                     .setMinElevation(r.MinElevation)
                     .setMaxElevation(r.MaxElevation)

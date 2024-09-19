@@ -1,5 +1,8 @@
 # OreLoader
 
+## How to install
+It like any jar mod but you have to put the data mod in the vanilla mods folder
+
 ## How to test/build
 For testing in the dev env, you can use the `gradle runLoader` task
 

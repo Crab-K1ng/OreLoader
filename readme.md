@@ -1,5 +1,4 @@
-# Puzzle Loader Example Mod
-> The example mod for [Puzzle Loader](https://github.com/PuzzleLoader/PuzzleLoader)
+# OreLoader
 
 ## How to test/build
 For testing in the dev env, you can use the `gradle runLoader` task

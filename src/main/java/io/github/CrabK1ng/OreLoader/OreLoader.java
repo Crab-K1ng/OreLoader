@@ -12,8 +12,6 @@ public class OreLoader implements ModInitializer {
         PuzzleRegistries.EVENT_BUS.register(this);
 
         Constants.LOGGER.info("Hello From INIT");
-        //LoadOres.loadOres();
-        LoadOres.loadOres();
     }
 
     @Subscribe

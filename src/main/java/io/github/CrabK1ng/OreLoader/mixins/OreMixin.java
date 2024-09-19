@@ -1,7 +1,6 @@
 package io.github.CrabK1ng.OreLoader.mixins;
 
 import finalforeach.cosmicreach.blocks.Block;
-import finalforeach.cosmicreach.items.recipes.CraftingRecipe;
 import finalforeach.cosmicreach.worldgen.Ore;
 import io.github.CrabK1ng.OreLoader.Constants;
 import io.github.CrabK1ng.OreLoader.OreList;
@@ -20,9 +19,9 @@ public class OreMixin {
         Constants.LOGGER.info("Ores");
 
         for(OreList r : allOre) {
-            Ore temOre;
+            Ore tempOre;
             Constants.LOGGER.info("blockId " + r.blockId);
-            temOre = (new Ore(Block.getById(r.blockId).getDefaultBlockState(), "ore_replaceable"))
+            tempOre = (new Ore(Block.getById(r.blockId).getDefaultBlockState(), "ore_replaceable"))
                     .setMinElevation(r.MinElevation)
                     .setMaxElevation(r.MaxElevation)
                     .setMaxOresPerCluster(r.MaxOresPerCluster)

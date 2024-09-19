@@ -15,6 +15,9 @@
     ],
     "init": [
       "io.github.CrabK1ng.OreLoader.OreLoader"
+    ],
+    "postInit": [
+      "io.github.CrabK1ng.OreLoader.OreLoaderPostinit"
     ]
   },
   "mixins": [

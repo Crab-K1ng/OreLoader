@@ -7,5 +7,6 @@ public class OreLoaderPreinit implements PreModInitializer {
     @Override
     public void onPreInit() {
         Constants.LOGGER.info("Hello From PRE-INIT");
+        //LoadOres.testloadOres();
     }
 }

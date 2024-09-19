@@ -1,0 +1,10 @@
+{
+    "ore": 
+    {
+        "block": "base:snow",
+        "MaxElevation": 30,
+        "MinElevation": 10,
+        "MaxOresPerCluster": 1000,
+        "AttemptsPerColumn": 10
+    }
+}

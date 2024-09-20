@@ -4,10 +4,10 @@
   "name": "${mod_name}",
   "description": "loader ore of json files in mods folder",
   "authors": [
-    "crabking"
+    "CrabKing"
   ],
   "meta": {
-    "icon": "assets/ore-loader/icons/icon.png"
+    "icon": "ore-loader:icons/icon.png"
   },
   "entrypoints": {
     "preInit": [
@@ -24,7 +24,7 @@
   ],
   "dependencies": {
     "cosmic-reach": ">=0.3.1",
-    "puzzle-loader": ">=1.5.8"
+    "puzzle-loader": ">=1.5.9"
   },
   "accessManipulator": "ore_loader.manipulator"
 }

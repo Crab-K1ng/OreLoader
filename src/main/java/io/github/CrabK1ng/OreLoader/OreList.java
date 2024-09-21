@@ -4,13 +4,15 @@ import finalforeach.cosmicreach.blocks.Block;
 
 public class OreList {;
    public String blockId;
+   public String tagsOfBlocksToReplace;
    public int MaxElevation;
    public int MinElevation;
    public int MaxOresPerCluster;
    public int AttemptsPerColumn;
 
-   public OreList setOre(String blockId, int MaxElevation,int MinElevation, int MaxOresPerCluster, int AttemptsPerColumn) {
+   public OreList setOre(String blockId, String tagsOfBlocksToReplace, int MaxElevation, int MinElevation, int MaxOresPerCluster, int AttemptsPerColumn) {
       this.blockId = blockId;
+      this.tagsOfBlocksToReplace = tagsOfBlocksToReplace;
       this.MaxElevation = MaxElevation;
       this.MinElevation = MinElevation;
       this.MaxOresPerCluster = MaxOresPerCluster;

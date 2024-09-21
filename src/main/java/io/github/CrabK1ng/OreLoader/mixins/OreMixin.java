@@ -21,7 +21,7 @@ public class OreMixin {
         for(OreList r : allOre) {
             Ore tempOre;
             Constants.LOGGER.info("add Ore :" + r.blockId);
-            tempOre = (new Ore(Block.getById(r.blockId).getDefaultBlockState(), "ore_replaceable"))
+            tempOre = (new Ore(Block.getById(r.blockId).getDefaultBlockState(), r.tagsOfBlocksToReplace))
                     .setMinElevation(r.MinElevation)
                     .setMaxElevation(r.MaxElevation)
                     .setMaxOresPerCluster(r.MaxOresPerCluster)

@@ -1,7 +1,7 @@
 {
     "ore": 
     {
-        "block": "base:snow",
+        "blockId": "base:snow",
         "MaxElevation": 30,
         "MinElevation": 10,
         "MaxOresPerCluster": 1000,

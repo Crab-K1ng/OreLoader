@@ -1,7 +1,8 @@
 {
     "ore": 
     {
-        "block": "base:wood_planks",
+        "blockId": "base:wood_planks",
+        "tagsOfBlocksToReplace": "ore_replaceable",
         "MaxElevation": 30,
         "MinElevation": 10,
         "MaxOresPerCluster": 1000,

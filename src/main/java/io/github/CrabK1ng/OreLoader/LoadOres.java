@@ -31,7 +31,9 @@ public class LoadOres {
         Constants.LOGGER.info("adding: " + blockId);
 
         String tagsOfBlocksToReplace = oreToLoad.has("tagsOfBlocksToReplace") ? oreToLoad.getString("tagsOfBlocksToReplace") : "ore_replaceable" ;
-        if (!Objects.equals(tagsOfBlocksToReplace, "ore_replaceable")){
+        if (tagsOfBlocksToReplace.isEmpty()) {
+            tagsOfBlocksToReplace = "ore_replaceable";
+        }else if (!Objects.equals(tagsOfBlocksToReplace, "ore_replaceable")){
             Constants.LOGGER.info("set tag Of Blocks To Replace: " + tagsOfBlocksToReplace);
         }
 

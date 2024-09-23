@@ -2,7 +2,7 @@
   "id": "${mod_id}",
   "version": "${mod_version}",
   "name": "${mod_name}",
-  "description": "loader ore of json files in mods folder",
+  "description": "loads ores from the mods folder",
   "authors": [
     "CrabKing"
   ],

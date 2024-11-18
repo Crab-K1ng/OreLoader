@@ -1,8 +1,9 @@
 {
+  "formatVersion": 1,
   "id": "${mod_id}",
   "version": "${mod_version}",
   "name": "${mod_name}",
-  "description": "loads ores from the mods folder",
+  "description": "${mod_desc}",
   "authors": [
     "CrabKing"
   ],
@@ -10,8 +11,6 @@
     "icon": "ore-loader:icons/icon.png"
   },
   "entrypoints": {
-    "preInit": [
-    ],
     "init": [
       "io.github.CrabK1ng.OreLoader.OreLoader"
     ],
@@ -22,9 +21,9 @@
   "mixins": [
     "ore_loader.mixins.json"
   ],
-  "dependencies": {
-    "cosmic-reach": ">=0.3.1",
-    "puzzle-loader": ">=1.5.9"
+  "depends": {
+    "cosmic-reach": ">=0.3.7",
+    "puzzle-loader": ">=2.0.6"
   },
   "accessManipulator": "ore_loader.manipulator"
 }
